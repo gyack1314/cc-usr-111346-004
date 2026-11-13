@@ -1,0 +1,8 @@
+[
+  {
+    "bundle": "bundle-a.json",
+    "source": "obs-a",
+    "path": "specimen.reference",
+    "target": "s-a"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:obs",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-a",
+        "meta": {
+          "versionId": "one"
+        },
+        "status": "final",
+        "code": {
+          "text": "synthetic"
+        },
+        "specimen": {
+          "reference": "urn:uuid:sample"
+        },
+        "contained": [
+          {
+            "resourceType": "Specimen",
+            "id": "local",
+            "status": "available"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:sample",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "s-a",
+        "meta": {
+          "versionId": "one"
+        },
+        "status": "available"
+      }
+    }
+  ]
+}

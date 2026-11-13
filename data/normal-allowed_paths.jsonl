@@ -1,0 +1,2 @@
+{"id": "p1", "path": "specimen", "resource_type": "Observation"}
+{"id": "p2", "path": "target[]", "resource_type": "Provenance"}

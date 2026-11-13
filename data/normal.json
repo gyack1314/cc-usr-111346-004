@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "tables": {
+    "sources": {
+      "file": "normal-sources.jsonl",
+      "sha256": "e07ac84c551d17507f45892878f83a320361e3be25a57ad6cddeab6ea56b7c66",
+      "bytes": 73,
+      "rows": 1,
+      "fields": [
+        "id",
+        "fhir_base",
+        "generation"
+      ]
+    },
+    "roots": {
+      "file": "normal-roots.jsonl",
+      "sha256": "70dcdc9f7b4511935d729bbc73185a9d9dbd81e6479e0558599447ceddb24456",
+      "bytes": 83,
+      "rows": 1,
+      "fields": [
+        "id",
+        "source",
+        "bundle",
+        "full_url"
+      ]
+    },
+    "allowed_paths": {
+      "file": "normal-allowed_paths.jsonl",
+      "sha256": "c271c2727e453471d3043840f969dcb83129208f75156835b5eefbd02f81f643",
+      "bytes": 129,
+      "rows": 2,
+      "fields": [
+        "id",
+        "resource_type",
+        "path"
+      ]
+    }
+  }
+}

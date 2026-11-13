@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "sources/bundle-a.json",
+      "bytes": 805,
+      "sha256": "ff713f0f01676a38da30157627156ef7c94a51f1fe5bb2bf8d100e330c4e9397"
+    },
+    {
+      "path": "sources/bundle-b.json",
+      "bytes": 295,
+      "sha256": "b8472d510641b4bb5043561b7525c315cf3450829292d5729fe74e119bb82ae5"
+    },
+    {
+      "path": "sources/expected-edges.json",
+      "bytes": 119,
+      "sha256": "c83f18ed6d7475f249037db8da610e7fbc87c02c093c0dd037dc3fe322dab9f6"
+    }
+  ]
+}

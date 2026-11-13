@@ -1,0 +1,17 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:sample",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "s-b",
+        "meta": {
+          "versionId": "one"
+        },
+        "status": "unavailable"
+      }
+    }
+  ]
+}
